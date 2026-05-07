@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Petite appli meteo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>La Météo du jour</h1>
+
+        <div class="bloc-logo-info">
+            <div class="bloc-logo">
+                <img src="res/nuit/01n.svg" alt="logo" class="logo-meteo">
+            </div>
+            <div class="bloc-info">
+                <p class="temps">Chargement...</p>
+                <p class="temperature">--°</p>
+                <p class="localisation">Ville</p> <!-- Corrigé ici -->
+            </div>
+        </div>
+
+        <!-- PREVISIONS HEURES -->
+        <div class="heure-bloc-prevision">
+            <div class="bloc-h"><p class="heure-nom-prevision"></p><p class="heure-prevision-valeur"></p></div>
+            <div class="bloc-h"><p class="heure-nom-prevision"></p><p class="heure-prevision-valeur"></p></div>
+            <div class="bloc-h"><p class="heure-nom-prevision"></p><p class="heure-prevision-valeur"></p></div>
+            <div class="bloc-h"><p class="heure-nom-prevision"></p><p class="heure-prevision-valeur"></p></div>
+            <div class="bloc-h"><p class="heure-nom-prevision"></p><p class="heure-prevision-valeur"></p></div>
+            <div class="bloc-h"><p class="heure-nom-prevision"></p><p class="heure-prevision-valeur"></p></div>
+            <div class="bloc-h"><p class="heure-nom-prevision"></p><p class="heure-prevision-valeur"></p></div>
+        </div>
+
+        <!-- PREVISIONS JOURS -->
+        <div class="jour-prevision-bloc">
+            <div class="bloc-j"><p class="jour-prevision-nom"></p><p class="jour-prevision-temp"></p></div>
+            <div class="bloc-j"><p class="jour-prevision-nom"></p><p class="jour-prevision-temp"></p></div>
+            <div class="bloc-j"><p class="jour-prevision-nom"></p><p class="jour-prevision-temp"></p></div>
+            <div class="bloc-j"><p class="jour-prevision-nom"></p><p class="jour-prevision-temp"></p></div>
+            <div class="bloc-j"><p class="jour-prevision-nom"></p><p class="jour-prevision-temp"></p></div>
+            <div class="bloc-j"><p class="jour-prevision-nom"></p><p class="jour-prevision-temp"></p></div>
+            <div class="bloc-j"><p class="jour-prevision-nom"></p><p class="jour-prevision-temp"></p></div>
+        </div>
+    </div> 
+ 
+    <script src="app.js"></script>
+</body>
+</html>
